@@ -1,2 +1,12 @@
-import time print open parenthesis, quotation mark, RideGuardian starting, quotation mark, close parenthesis print open parenthesis, quotation mark, possible crash detected, quotation mark, close parenthesis. cancel equals input open parenthesis quotation mark, type CANCEL to stop SOS, or press ENTER to continue, quotation mark, close parenthesis if cancel dot strip open close parenthesis dot lower open close parenthesis equals equals quotation mark cancel quotation mark, colon, print open parenthesis quotation mark SOS cancelled. Rider is safe, quotation mark, close parenthesis. Else, colon, print open parenthesis quotation mark Emergency countdown starting, quotation mark, close parenthesis. For seconds in range open parenthesis 10 comma 0 comma minus 1 close parenthesis colon print open parenthesis f quotation mark SOS in curly brace seconds close curly brace quotation mark close parenthesis time dot sleep open parenthesis 1 close parenthesis. Print open parenthesis quotation mark SOS ALERT TRIGGERED quotation mark close parenthesis
-
+import time
+print("RideGuardian starting")
+print("Possible crash detected")
+cancel = input("Type CANCEL to stop SOS or press ENTER to continue: ")
+if cancel.strip().lower() == "cancel"
+: print("SOS cancelled. Rider is safe.")
+        else:
+         print("Emergency countdown starting")
+         for seconds in range(10, 0, -1):
+            print(f"SOS in {seconds}") 
+            time.sleep(1) 
+        : print("SOS ALERT TRIGGERED")
